@@ -4,7 +4,11 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-color: #f9f9f9;
+  background-image: url('Madrasahku.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
   color: #333;
 }
 
@@ -49,7 +53,7 @@ main {
   padding: 20px;
   max-width: 800px;
   margin: auto;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.9); /* Supaya konten tetap terbaca */
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
